@@ -11,7 +11,7 @@ jobs:
        
       - name: Run settting file
         run: |
-          sudo bash ./root/root
+          sudo ls
        
       - name: Ubuntu ready to go 
         run: sleep 1d
