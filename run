@@ -18,11 +18,17 @@ sudo apt install xfce4-terminal -y
 
 
 
-read -p "what is your username : " username
-read -p "what is your password : " passwd
-printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
-read -p "Paste Here: " CRP
-read -p "what is your pin : " pin
+#read -p "what is your username : " username
+#read -p "what is your password : " passwd
+#printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
+#read -p "Paste Here: " CRP
+#read -p "what is your pin : " pin
+
+username = "aunglay"
+passwd  = "aunglay"
+pin = "123456"
+CRP = "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AXlqoi7VOrS8xAbyI8_rU9lXJ-dGl6M93_8z37XfanuBFGZtvTh4rnrU9oLMks31RYt_Bw" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)"
+
 printf "This script modify by Aung Myo Zaw.This is not my script crd to owner wait for download \n " >&2
 {
 sudo useradd -m $username
