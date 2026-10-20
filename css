@@ -1,0 +1,193 @@
+
+
+body header ul li {
+    margin: 0; 
+    padding: 0;
+}
+
+/* forandroidview */
+
+header {
+    text-align: center;
+    background-color: red;
+    margin: 0;
+    width: 100%;
+    
+}
+
+header h1 {
+    margin: 0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.banner .welcome {
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .welcome h2 {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.banner .welcome br {
+    display: none;
+}
+
+.nav1 {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}
+
+.nav1 ul li {
+    display: block;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px ;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+}
+
+.nav1 ul {
+    padding-left: 0 ;
+    margin: 0 auto;
+}
+
+
+/* LCQQXFKOMWCEHBLCKV@1300804 */
+
+
+
+/* chatgptcode */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner .welcome {
+    background-color: red;
+    margin: 0;
+    text-align: center;
+}
+
+/* chatgptcode */
+
+
+article h2 {
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+article p {
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+
+.images img {
+    width: 100%;
+}
+
+.images li {
+    padding: 20px;
+}
+
+.join h2 {
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+.join p {
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+form input {
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+form {
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+footer{
+    font-size: 25px;
+    padding: 3px;
+    background-color: red;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+/* forandroidview */
+
+
+@media screen and (min-width:650px ) {
+    .nav1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav1 ul {
+
+    }
+
+    .nav1 ul li {
+        width: 24%;
+        display: inline-block;
+        /* border: none; */
+    }
+
+    .images {
+       max-width: 100%;
+       white-space: nowarp;
+       text-align: center;
+    }
+
+    .images  li {
+        width: 45%;
+        display: inline-block;
+        
+    }
+
+    .images li img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+}
+
